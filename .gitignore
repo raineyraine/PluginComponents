@@ -11,3 +11,7 @@
 /*.rbxl.lock
 
 sourcemap.json
+
+# Docs
+docs/.vitepress/dist
+docs/.vitepress/cache
