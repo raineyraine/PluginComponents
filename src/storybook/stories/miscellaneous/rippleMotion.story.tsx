@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "@rbxts/react";
 import { CreateReactStory } from "@rbxts/ui-labs";
 import ReactRoblox from "@rbxts/react-roblox";
-import Background from "ui/components/Background";
-import { BUTTON_DEFAULT_HEIGHT, DEFAULT_FONT_NORMAL, DEFAULT_TEXT_SIZE } from "ui/constants";
-import Button from "ui/components/Button";
-import useStudioTheme from "ui/hooks/useStudioTheme";
+import Background from "../../../components/Background";
+import { BUTTON_DEFAULT_HEIGHT, DEFAULT_FONT_NORMAL, DEFAULT_TEXT_SIZE } from "../../../constants";
+import Button from "../../../components/Button";
+import useStudioTheme from "../../../hooks/useStudioTheme";
 import { config, LinearOptions, SpringOptions, TweenOptions } from "@rbxts/ripple";
 import { useEventListener, useMotion } from "@rbxts/pretty-react-hooks";
 import { RunService } from "@rbxts/services";

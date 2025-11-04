@@ -2,8 +2,8 @@ import React, { useState } from "@rbxts/react";
 import { CreateReactStory } from "@rbxts/ui-labs";
 import ReactRoblox from "@rbxts/react-roblox";
 import ThemedStory from "../../utility/ThemedStory";
-import TabContainer, { Tab } from "ui/components/TabContainer";
-import Button from "ui/components/Button";
+import TabContainer, { Tab } from "../../../components/TabContainer";
+import Button from "../../../components/Button";
 
 const story = CreateReactStory(
 	{

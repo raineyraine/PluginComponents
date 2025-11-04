@@ -1,6 +1,6 @@
 import React, { ReactNode } from "@rbxts/react";
-import Background from "ui/components/Background";
-import ThemeContext from "ui/contexts/ThemeContext";
+import Background from "../../components/Background";
+import ThemeContext from "../../contexts/ThemeContext";
 
 export interface ThemedStoryProps {
 	children?: ReactNode;

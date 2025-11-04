@@ -1,7 +1,6 @@
 import React, { ReactNode, useState, useMemo, Children } from "@rbxts/react";
-import { DEFAULT_FONT_NORMAL, TAB_BUTTON_DEFAULT_HEIGHT } from "ui/constants";
-import useStudioTheme from "ui/hooks/useStudioTheme";
-import { CommonElementProps } from "ui/types";
+import { DEFAULT_FONT_NORMAL, TAB_BUTTON_DEFAULT_HEIGHT } from "../constants";
+import useStudioTheme from "../hooks/useStudioTheme";
 
 /* eslint-disable roblox-ts/lua-truthiness */
 
@@ -46,8 +45,8 @@ export function TabButton({
 	LayoutOrder,
 	disabled,
 	selected,
-	leadingIcon,
-	trailingIcon,
+	//leadingIcon,
+	//trailingIcon,
 	text,
 	handleClick,
 }: TabButtonProps) {

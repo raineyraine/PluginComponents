@@ -1,10 +1,9 @@
 import React, { ReactNode, useState } from "@rbxts/react";
-import { BUTTON_DEFAULT_HEIGHT, DEFAULT_FONT_NORMAL, DEFAULT_ICON_SIZE, DEFAULT_TEXT_SIZE } from "ui/constants";
+import { BUTTON_DEFAULT_HEIGHT, DEFAULT_FONT_NORMAL, DEFAULT_ICON_SIZE, DEFAULT_TEXT_SIZE } from "../constants";
 // import useStudioTheme from "ui/hooks/useStudioTheme";
-import useTheme from "ui/hooks/useTheme";
-import { CommonElementProps } from "ui/types";
+import useTheme from "../hooks/useTheme";
 import Icon from "./Icon";
-import getTextSize from "ui/util/getTextSize";
+import getTextSize from "../util/getTextSize";
 import { useSpring } from "@rbxts/pretty-react-hooks";
 import { config as rippleConfig } from "@rbxts/ripple";
 

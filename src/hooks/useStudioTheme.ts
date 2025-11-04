@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from "@rbxts/react";
-import ThemeContext from "ui/contexts/ThemeContext";
+import ThemeContext from "../contexts/ThemeContext";
 
 interface CustomStudio extends Studio {
 	Theme: StudioTheme;
@@ -7,6 +7,7 @@ interface CustomStudio extends Studio {
 
 const studio = settings().Studio as CustomStudio;
 
+/* eslint-disable roblox-ts/lua-truthiness */
 export default function useStudioTheme() {
 	const theme = useContext(ThemeContext);
 	const [studioTheme, setStudioTheme] = useState(studio.Theme);

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "@rbxts/react";
-import { darkTheme } from "ui/themes";
+import { darkTheme } from "../themes";
 import useStudioTheme from "./useStudioTheme";
 
 function parseTheme(studioTheme: StudioTheme, theme: { [key: string]: unknown }): PureTheme {

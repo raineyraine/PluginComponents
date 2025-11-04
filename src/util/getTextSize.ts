@@ -1,5 +1,5 @@
 import { TextService } from "@rbxts/services";
-import { DEFAULT_FONT_NORMAL, DEFAULT_TEXT_SIZE } from "ui/constants";
+import { DEFAULT_FONT_NORMAL, DEFAULT_TEXT_SIZE } from "../constants";
 
 const FRAME_SIZE = Vector2.one.mul(math.huge);
 

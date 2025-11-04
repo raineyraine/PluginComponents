@@ -2,7 +2,7 @@ import React from "@rbxts/react";
 import { CreateReactStory } from "@rbxts/ui-labs";
 import ReactRoblox from "@rbxts/react-roblox";
 import ThemedStory from "../../utility/ThemedStory";
-import Background from "ui/components/Background";
+import Background from "../../../components/Background";
 
 const story = CreateReactStory(
 	{

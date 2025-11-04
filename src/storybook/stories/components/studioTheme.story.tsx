@@ -1,7 +1,7 @@
 import React from "@rbxts/react";
 import { CreateReactStory } from "@rbxts/ui-labs";
 import ReactRoblox from "@rbxts/react-roblox";
-import useStudioTheme from "ui/hooks/useStudioTheme";
+import useStudioTheme from "../../../hooks/useStudioTheme";
 
 const styleGuideColors = Enum.StudioStyleGuideColor.GetEnumItems();
 const styleGuideModifiers = Enum.StudioStyleGuideModifier.GetEnumItems();

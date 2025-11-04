@@ -1,6 +1,5 @@
 import React from "@rbxts/react";
-import useTheme from "ui/hooks/useTheme";
-import { CommonElementProps } from "ui/types";
+import useTheme from "../hooks/useTheme";
 
 export default function Background({ children, Size, Position, AnchorPoint, ZIndex, LayoutOrder }: CommonElementProps) {
 	const theme = useTheme();
