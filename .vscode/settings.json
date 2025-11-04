@@ -11,5 +11,6 @@
 	},
 	"eslint.run": "onType",
 	"eslint.format.enable": true,
-	"eslint.useFlatConfig": false
+	"eslint.useFlatConfig": false,
+	"stylua.targetReleaseVersion": "latest"
 }

@@ -2,3 +2,12 @@
 /out
 /include
 *.tsbuildinfo
+
+# Project place file
+/PluginComponents.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap.json
