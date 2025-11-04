@@ -38,7 +38,8 @@
 		"eslint-plugin-roblox-ts": "^1.2.1",
 		"prettier": "^3.6.2",
 		"roblox-ts": "^3.0.0-dev-9165cde",
-		"typescript": "^5.9.3"
+		"typescript": "^5.9.3",
+		"@rbxts/testez": "^0.4.2-ts.0"
 	},
 	"dependencies": {
 		"@rbxts/catppuccin": "^1.0.2",
