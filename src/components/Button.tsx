@@ -1,11 +1,16 @@
 import React, { ReactNode, useState } from "@rbxts/react";
-import { BUTTON_DEFAULT_HEIGHT, DEFAULT_FONT_NORMAL, DEFAULT_ICON_SIZE, DEFAULT_TEXT_SIZE } from "../constants";
+import {
+	BUTTON_DEFAULT_HEIGHT,
+	DEFAULT_FONT_NORMAL,
+	DEFAULT_ICON_SIZE,
+	DEFAULT_TEXT_SIZE,
+	SPRING_FAST,
+} from "../constants";
 // import useStudioTheme from "ui/hooks/useStudioTheme";
 import useTheme from "../hooks/useTheme";
 import Icon from "./Icon";
 import getTextSize from "../util/getTextSize";
 import { useSpring } from "@rbxts/pretty-react-hooks";
-import { config as rippleConfig } from "@rbxts/ripple";
 
 const PADDING_X = 12;
 const PADDING_Y = 4;
@@ -147,7 +152,7 @@ export default function Button({
 		);
 	}
 
-	const bgColorSpring = useSpring(bgColor, rippleConfig.spring.stiff);
+	const bgColorSpring = useSpring(bgColor, SPRING_FAST);
 	return (
 		<imagebutton
 			BackgroundColor3={bgColorSpring}
