@@ -66,7 +66,14 @@ export default defineConfig({
 				{
 					text: "Plugin Components",
 					collapsed: false,
-					items: [{ text: "PluginProvider", link: "/api/plugin-components/PluginProvider" }],
+					items: [
+						{ text: "PluginProvider", link: "/api/plugin-components/PluginProvider" },
+						{ text: "PluginToolbar", link: "/api/plugin-components/PluginToolbar" },
+						{ text: "PluginToolbarButton", link: "/api/plugin-components/PluginToolbarButton" },
+						{ text: "PluginMenu", link: "/api/plugin-components/PluginMenu" },
+						{ text: "PluginAction", link: "/api/plugin-components/PluginAction" },
+						{ text: "PluginWidget", link: "/api/plugin-components/PluginWidget" },
+					],
 				},
 			],
 		},
