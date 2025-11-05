@@ -5,6 +5,8 @@ export default defineConfig({
 	title: "PluginComponents",
 	description: "A roblox-ts package for creating Roblox Studio plugins",
 	lastUpdated: true,
+	base: "/PluginComponents/",
+
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
