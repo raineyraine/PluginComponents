@@ -27,6 +27,8 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": "github:raineyraine/PluginComponents",
+  "homepage": "https://raineyraine.github.io/PluginComponents",
   "devDependencies": {
     "@rbxts/compiler-types": "^3.0.0-types.0",
     "@rbxts/testez": "^0.4.2-ts.0",
