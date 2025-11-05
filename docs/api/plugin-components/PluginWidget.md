@@ -5,5 +5,5 @@
 
 
 ::: details Raw Interface 
-<<< @/../src/components/plugin/PluginWidget.tsx#component-interface {1}
+```<<< @/../src/components/plugin/PluginWidget.tsx#component-interface {1}```
 :::

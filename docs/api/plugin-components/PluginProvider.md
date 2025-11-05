@@ -23,5 +23,5 @@ The `Plugin` global to use
 
 ### Raw Interface
 ::: details Raw Interface
-<<< @/../src/components/plugin/PluginProvider.tsx#component-interface {1}
+```<<< @/../src/components/plugin/PluginProvider.tsx#component-interface {1}```
 :::
