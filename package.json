@@ -8,7 +8,7 @@
     "build": "rbxtsc",
     "watch": "rbxtsc -w",
     "dev": "rbxtsc -w --type game --rojo test.project.json",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "pnpm run build"
   },
   "keywords": [
     "roblox-studio",
