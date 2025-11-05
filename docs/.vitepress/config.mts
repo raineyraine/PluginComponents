@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from "vitepress-plugin-group-icons";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,11 +8,18 @@ export default defineConfig({
 	lastUpdated: true,
 	base: "/PluginComponents/",
 
+	markdown: {
+		config(md) {
+			md.use(groupIconMdPlugin);
+		},
+	},
+
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Get Started", link: "/docs/getstarted" },
+			{ text: "Reference", link: "/api/overview" },
 		],
 		editLink: {
 			pattern: "https://github.com/raineyraine/PluginComponents/tree/main/docs/:path",
@@ -48,8 +56,23 @@ export default defineConfig({
 					],
 				},
 			],
+			"/api/": [
+				{
+					text: "API Referecnce",
+					items: [{ text: "Overview", link: "api/overview" }],
+				},
+				{
+					text: "Plugin Components",
+					collapsed: false,
+					items: [{ text: "PluginProvider", link: "api/plugin-components/PluginProvider" }],
+				},
+			],
 		},
 
 		socialLinks: [{ icon: "github", link: "https://github.com/raineyraine/PluginComponents/" }],
+	},
+
+	vite: {
+		plugins: [groupIconVitePlugin()],
 	},
 });
