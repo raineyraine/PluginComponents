@@ -6,8 +6,8 @@ on:
     push:
         branches: [main]
         paths:
-          - 'docs/'
-          - '.github'
+            - "/docs/"
+            - "/.github"
 
     # Allows you to run this workflow manually from the Actions tab
     workflow_dispatch:
@@ -43,13 +43,13 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: 20
-                  cache: npm # or pnpm / yarn
+                  cache: pnpm # or pnpm / yarn
             - name: Setup Pages
               uses: actions/configure-pages@v4
             - name: Install dependencies
-              run: npm install # or pnpm install / yarn install / bun install
+              run: pnpm install # or pnpm install / yarn install / bun install
             - name: Build Docs
-              run: npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
+              run: pnpm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:
