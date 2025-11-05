@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	title: "PluginComponents",
 	description: "A roblox-ts package for creating Roblox Studio plugins",
+	lastUpdated: true,
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
@@ -11,7 +12,8 @@ export default defineConfig({
 			{ text: "Get Started", link: "/docs/getstarted" },
 		],
 		editLink: {
-			pattern: "https://github.com/raineyraine/PluginComponents/tree/docs:path",
+			pattern: "https://github.com/raineyraine/PluginComponents/tree/main/docs/:path",
+			text: "Edit page on GitHub",
 		},
 		search: {
 			provider: "local",
@@ -46,6 +48,6 @@ export default defineConfig({
 			],
 		},
 
-		socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+		socialLinks: [{ icon: "github", link: "https://github.com/raineyraine/PluginComponents/" }],
 	},
 });
