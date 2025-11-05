@@ -16,12 +16,12 @@
 
 ## `<PluginProvider>`
 `<PluginProvider>` accepts the following props:
-```ts
-interface PluginProviderProps {
-    // children is automatically handled by React JSX, do not use
-    children?: ReactNode;
 
-    // You must pass in the `plugin` global here
-	plugin: Plugin;
-}
-```
+### Properties
+#### plugin <Badge type="tip" text="Plugin" />
+The `Plugin` global to use
+
+### Raw Interface
+::: details Raw Interface
+<<< @/../src/components/plugin/PluginProvider.tsx#component-interface {1}
+:::
