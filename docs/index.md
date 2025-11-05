@@ -4,15 +4,12 @@ layout: home
 
 hero:
   name: "PluginComponents"
-  text: "A roblox-ts package for creating Roblox Studio plugins"
-  tagline: My great project tagline
+  #text: "roblox-ts plugin components"
+  tagline: roblox-ts plugin components 
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Get Started
+      link: /docs/getstarted
 
 features:
   - title: Feature A
