@@ -1,6 +1,8 @@
 import { defineConfig } from "vitepress";
 import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from "vitepress-plugin-group-icons";
 
+const prod = process.env.NODE_ENV === "production";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	title: "PluginComponents",
@@ -37,34 +39,34 @@ export default defineConfig({
 				{
 					text: "Get Started",
 					items: [
-						{ text: "Introduction", link: "docs/getstarted" },
-						{ text: "Installation", link: "docs/installation" },
-						{ text: "Contributing", link: "docs/contributing" },
+						{ text: "Introduction", link: "/docs/getstarted" },
+						{ text: "Installation", link: "/docs/installation" },
+						{ text: "Contributing", link: "/docs/contributing" },
 					],
 				},
 				{
 					text: "Creating Plugins",
 					collapsed: false,
-					items: [{ text: "Start Project", link: "docs/creating/starting" }],
+					items: [{ text: "Start Project", link: "/docs/creating/starting" }],
 				},
 				{
 					text: "VitePress Examples",
 					collapsed: true,
 					items: [
-						{ text: "Markdown Examples", link: "ViteThings/markdown-examples" },
-						{ text: "Runtime API Examples", link: "ViteThings/api-examples" },
+						{ text: "Markdown Examples", link: "/ViteThings/markdown-examples" },
+						{ text: "Runtime API Examples", link: "/ViteThings/api-examples" },
 					],
 				},
 			],
 			"/api/": [
 				{
 					text: "API Referecnce",
-					items: [{ text: "Overview", link: "api/overview" }],
+					items: [{ text: "Overview", link: "/api/overview" }],
 				},
 				{
 					text: "Plugin Components",
 					collapsed: false,
-					items: [{ text: "PluginProvider", link: "api/plugin-components/PluginProvider" }],
+					items: [{ text: "PluginProvider", link: "/api/plugin-components/PluginProvider" }],
 				},
 			],
 		},
