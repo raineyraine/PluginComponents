@@ -23,9 +23,8 @@ declare global {
 }
 
 // Hooks
-export * from "./hooks/plugin/usePlugin";
-export * from "./hooks/useStudioTheme";
-export * from "./hooks/useTheme";
+export * as useStudioTheme from "./hooks/useStudioTheme";
+export * as useTheme from "./hooks/useTheme";
 
 // Contexts
 //export * from "./contexts/plugin/MenuContext"
@@ -35,10 +34,10 @@ export * from "./hooks/useTheme";
 //export * from "./contexts/ThemeContext"
 
 // Components
-export * from "./components/plugin/PluginProvider";
-export * from "./components/plugin/PluginWidget";
+export * as PluginProvider from "./components/plugin/PluginProvider";
+export * as PluginWidget from "./components/plugin/PluginWidget";
 
-export * from "./components/Background";
-export * from "./components/Button";
-export * from "./components/Icon";
-export * from "./components/TabContainer";
+export * as Background from "./components/Background";
+export * as Button from "./components/Button";
+export * as Icon from "./components/Icon";
+export * as TabContainer from "./components/TabContainer";
