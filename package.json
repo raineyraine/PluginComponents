@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/plugincomponents",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "A roblox-ts package for creating Roblox Studio plugins",
 	"main": "out/init.lua",
 	"typings": "out/index.d.ts",
