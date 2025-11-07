@@ -19,13 +19,13 @@ importers:
         version: 1.0.4
       '@rbxts/pretty-react-hooks':
         specifier: ^0.6.4
-        version: 0.6.4(@rbxts/react-roblox@17.2.3)(@rbxts/react@17.2.3)
+        version: 0.6.4(@rbxts/react-roblox@17.3.7-alpha.1(@rbxts/react@17.3.7-alpha.1))(@rbxts/react@17.3.7-alpha.1)
       '@rbxts/react':
-        specifier: ^17.2.3
-        version: 17.2.3
+        specifier: 17.3.7-alpha.1
+        version: 17.3.7-alpha.1
       '@rbxts/react-roblox':
-        specifier: ^17.2.3
-        version: 17.2.3
+        specifier: 17.3.7-alpha.1
+        version: 17.3.7-alpha.1(@rbxts/react@17.3.7-alpha.1)
       '@rbxts/ripple':
         specifier: ^0.9.3
         version: 0.9.3
@@ -44,7 +44,7 @@ importers:
         version: 0.4.2-ts.0
       '@rbxts/types':
         specifier: ^1.0.888
-        version: 1.0.888
+        version: 1.0.889
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.46.2
         version: 8.46.3(@typescript-eslint/parser@8.46.3(eslint@9.39.1)(typescript@5.9.3))(eslint@9.39.1)(typescript@5.9.3)
@@ -145,6 +145,63 @@ packages:
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
+  '@rbxts-js/boolean@1.2.3-ts.1':
+    resolution: {integrity: sha512-IlYFG9uatXQKXOLR1mdptVeEcxudwBCierO+Vu6VZRRaI+/+JDxUClm+QFZyce/kitwnDTmtNvhqVAUtFvCU0Q==}
+
+  '@rbxts-js/collections@1.2.3-ts.1':
+    resolution: {integrity: sha512-RYT73QyEdsV+DCQMtyzT2bZ1P12j2b+JSHVdb1x6xrDq/KdVEkk/QAzW+o22vPrLXbHa6/jA5bmVlgVcOOrIjA==}
+
+  '@rbxts-js/console@1.2.3-ts.1':
+    resolution: {integrity: sha512-qacyJE7bYf4n9448F7mn9e8Y5qljZb7QkSmsmnbQT2HA9Mecvg3gqc9RwCIdVkBV6o1AGVAHbatNQ3a39zPjaw==}
+
+  '@rbxts-js/es7-types@1.2.3-ts.1':
+    resolution: {integrity: sha512-Z7NitBQp6tyzsr5eKlSX54rmopKXpzGu33lYikjF37llrnGFBpnRcZgCJwHKYciloRmjUtnR/UohUNwbWyG9Zg==}
+
+  '@rbxts-js/instance-of@1.2.3-ts.1':
+    resolution: {integrity: sha512-3fKvDPvxHuEZALNBP2XdbXfzjEfbgsXAheCm1Jf5kC2r+HgszW+yqg4zY6TjW0pcsJM2JjH+fM52oomSNu3LLQ==}
+
+  '@rbxts-js/luau-polyfill@1.2.3-ts.1':
+    resolution: {integrity: sha512-2asgvWrOhf311rNgEM/fxMO3+xOVI63Cz1K1PobyZVtDdd87ZJ6RGiZSFl1EAeU77SZc8280toJDVs9YSwxWnA==}
+
+  '@rbxts-js/math@1.2.3-ts.1':
+    resolution: {integrity: sha512-mF7IMJJyxYE02cRNWJ1wsq4pPaAEXKX+CbGlmI0G3QBgWVHj+Oi02IR6pssyUyE6Y2BKvgvP3dcJuTO51OX25A==}
+
+  '@rbxts-js/number@1.2.3-ts.1':
+    resolution: {integrity: sha512-tPdt2s7fEBSxImVFBUvuSMtBKIvaZUCtlOjBl58Y0+GKB15VPXFIRW/5biVruXPnv9d4sDE3mh986ZxxN4UQ5w==}
+
+  '@rbxts-js/react-globals@17.3.7-ts.1':
+    resolution: {integrity: sha512-vwMHsc3Oy2MDAw2M212nQJ8A7nEG5O/lyXDyMGzYJp4832awhrf34YCkU4dxBE4sdMDcoWykhmuPjmzwrcS9Eg==}
+
+  '@rbxts-js/react-reconciler@17.3.7-ts.1':
+    resolution: {integrity: sha512-MxKU48i1gv4djcgHTq3geMvl6MzXPW85FO+itLg0YCvqT3WgE3jsMAc0nneOFi5Mwd5tqybQY6UFF1SbQtBopA==}
+
+  '@rbxts-js/react-roblox@17.3.7-ts.1':
+    resolution: {integrity: sha512-xiJQXmJAho/mStcWYC7AXFqgUqW78whUMacaNeODMimQXgoVqaIfo0sEhLtLtS/N3qZRs1KR64nsNG/0n1r/NQ==}
+
+  '@rbxts-js/react@17.3.7-ts.1':
+    resolution: {integrity: sha512-nRHYoBzk9DSbOvk281jmN5EM3TlmKv2jOzLgSIGtmNMuwZKi9yEjjxdluS1wHmjSvus1YiPHhBUwrKnbu01Obg==}
+
+  '@rbxts-js/roblox-lua-promise@3.5.0-ts.2':
+    resolution: {integrity: sha512-H8fxKVJkRnM60yTZ/riO4X43GZD/MViFm+ftCzzAALkAhE4vSaBDNv9E7IUjZZoWi21bG6vZ8mGIiYfavaljvw==}
+
+  '@rbxts-js/safe-flags@17.3.7-ts.1':
+    resolution: {integrity: sha512-aQ/5aQ/wQO5npifAbTEpR3jQRMeyGsVc91AQEyhBW461lPv6ZEg+Ad2HJFSzg4eeK2mb8Z9WyIMBrb01Jt+GnQ==}
+
+  '@rbxts-js/scheduler@17.3.7-ts.1':
+    resolution: {integrity: sha512-WCgGQqH9/+A5oJd6HpxMj7Vp1VGqhycnJK0CZTsJl/Ceyf/VH/vif8fo1FrBWkxYEgz/7y0q3LOeRj8ArhyDWQ==}
+
+  '@rbxts-js/shared@17.3.7-ts.1':
+    resolution: {integrity: sha512-B/OCkRmbR6ho1yuf0M0hQIb78coDY//2XdmNBaX2XCN5pKa7dquiX6ufk4dizJ/OMBoy9br/cnxqcI0PLvla3w==}
+
+  '@rbxts-js/string@1.2.3-ts.1':
+    resolution: {integrity: sha512-Je/WKgZbXF/sAHEsQPuns5n4rWzux327zjr0KRf9Gy62ieUzl2FRZZHjVYce3xdMtHif2JstIf/J3p513TUtRg==}
+
+  '@rbxts-js/symbol-luau@1.0.0-ts.1':
+    resolution: {integrity: sha512-TQS/ImDCK5KPGvbmyScH5EZS0ELSCDvZEFR3W+ItPlsLl+bDRSI/0uaKtJ7rbwXgdGwBDKM1QXFPjqe+KOphIA==}
+
+  '@rbxts-js/timers@1.2.3-ts.1':
+    resolution: {integrity: sha512-HKP4ymFX3QLWbR/2Gy4LXwvkhjC9OzbwZ5bNunxu+M8Ocbi1cjRduiZK/y5ogLr9cNIfSoxs6e1DQ3soc8/hwA==}
+
   '@rbxts/catppuccin@1.0.2':
     resolution: {integrity: sha512-8jUp8N0I141PuDYjjc8QCUmkZTbL1JjDr4hY2mhN8FAK7f7y3q7t9r7aApEuFoAgBCHPS8MlH45yuxZS4K0AIg==}
 
@@ -163,14 +220,13 @@ packages:
       '@rbxts/react': '*'
       '@rbxts/react-roblox': '*'
 
-  '@rbxts/react-roblox@17.2.3':
-    resolution: {integrity: sha512-YgS+C3tf92iM1NTK1f6R2O2G8+nbcKFnblA0mTs2Nt878OsWLgxhnhkCBZ6wYv+yeDGD9/sssKHZ6s2LzUWTrQ==}
+  '@rbxts/react-roblox@17.3.7-alpha.1':
+    resolution: {integrity: sha512-fkSAsHWJ0eLWcSnYqxXpO2KDwzL8P/Ztae/CHkmqrAsN9S4sgvvQ+D4zvVmoDEHhs+yaF1hc+ueAlqUTIkhM0Q==}
+    peerDependencies:
+      '@rbxts/react': ^17.3.7-alpha.1
 
-  '@rbxts/react-vendor@17.2.3':
-    resolution: {integrity: sha512-dWCiVelvTK6h920geaFH/OQ5zoWHyhyqyfH51hKx2/iVZ6OiiyNVJ5UqEIkJMG4HsJ8JnkTORizV3+MtQ41BtA==}
-
-  '@rbxts/react@17.2.3':
-    resolution: {integrity: sha512-IoOB8e2W8MxT0MKWFf0Ls0vT61ImYL6ctHQgz5+oazma6z8bqFtJjgPxOuy6jmMSuyfBe7rYp/muou0kIjZT+Q==}
+  '@rbxts/react@17.3.7-alpha.1':
+    resolution: {integrity: sha512-VXWh6if70ccf7vXc1J6GacHGSFBhZmAdQ2wgQkQz+37jttD79gWnRHpE/ktIcwndZfb1ygcMbv2r22mmuLvG7w==}
 
   '@rbxts/ripple@0.9.3':
     resolution: {integrity: sha512-GmwjQl7a8pvGPGQYLmaAcf2RBPpneOL5P1+U8CzTHt9tBhCdk0TEJ/MQoTv9JnHD62RMBE1jogQBvuGgl9VXAg==}
@@ -184,8 +240,8 @@ packages:
   '@rbxts/testez@0.4.2-ts.0':
     resolution: {integrity: sha512-8Q+OG9ddTD2P3aARCuRKpPqUBvuifgSnHvQMZ6jBMqUzxhIysnb0l4c3vnnaQnvdyZ1OW9tKxcdEHMGTb67uOw==}
 
-  '@rbxts/types@1.0.888':
-    resolution: {integrity: sha512-K7NQyBSWWlZSRZO8LwGZXJUxK7ebVdZ+jUZgoAzWjpP0dyzM4gpC6Vf6wkDbH1RFXQ9vrJNeVGg1U9/XcW1YAg==}
+  '@rbxts/types@1.0.889':
+    resolution: {integrity: sha512-5vi1JqyejUzPq72jNb4OFUHNZ8uk0bhvVL4Eiqqf6y+3z5UzBdgWZDZJR6/7aVaqADU4fEg0lUMRGzZukZvttQ==}
 
   '@rbxts/ui-labs@2.4.2':
     resolution: {integrity: sha512-9cyzDYN4mM7KSupZpbHRCUWCfSHzy8LCqa9Czys2jaKYUCn8oV4j5AE+5jTrHD/8RcltP5EvCSFIFwB0N/NfxA==}
@@ -920,6 +976,97 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
+  '@rbxts-js/boolean@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/collections': 1.2.3-ts.1
+
+  '@rbxts-js/collections@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/es7-types': 1.2.3-ts.1
+      '@rbxts-js/instance-of': 1.2.3-ts.1
+
+  '@rbxts-js/console@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/collections': 1.2.3-ts.1
+
+  '@rbxts-js/es7-types@1.2.3-ts.1': {}
+
+  '@rbxts-js/instance-of@1.2.3-ts.1': {}
+
+  '@rbxts-js/luau-polyfill@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/boolean': 1.2.3-ts.1
+      '@rbxts-js/collections': 1.2.3-ts.1
+      '@rbxts-js/console': 1.2.3-ts.1
+      '@rbxts-js/es7-types': 1.2.3-ts.1
+      '@rbxts-js/instance-of': 1.2.3-ts.1
+      '@rbxts-js/math': 1.2.3-ts.1
+      '@rbxts-js/number': 1.2.3-ts.1
+      '@rbxts-js/string': 1.2.3-ts.1
+      '@rbxts-js/symbol-luau': 1.0.0-ts.1
+      '@rbxts-js/timers': 1.2.3-ts.1
+
+  '@rbxts-js/math@1.2.3-ts.1': {}
+
+  '@rbxts-js/number@1.2.3-ts.1': {}
+
+  '@rbxts-js/react-globals@17.3.7-ts.1':
+    dependencies:
+      '@rbxts-js/safe-flags': 17.3.7-ts.1
+
+  '@rbxts-js/react-reconciler@17.3.7-ts.1':
+    dependencies:
+      '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+      '@rbxts-js/react': 17.3.7-ts.1
+      '@rbxts-js/react-globals': 17.3.7-ts.1
+      '@rbxts-js/roblox-lua-promise': 3.5.0-ts.2
+      '@rbxts-js/safe-flags': 17.3.7-ts.1
+      '@rbxts-js/scheduler': 17.3.7-ts.1
+      '@rbxts-js/shared': 17.3.7-ts.1
+
+  '@rbxts-js/react-roblox@17.3.7-ts.1':
+    dependencies:
+      '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+      '@rbxts-js/react': 17.3.7-ts.1
+      '@rbxts-js/react-globals': 17.3.7-ts.1
+      '@rbxts-js/react-reconciler': 17.3.7-ts.1
+      '@rbxts-js/scheduler': 17.3.7-ts.1
+      '@rbxts-js/shared': 17.3.7-ts.1
+
+  '@rbxts-js/react@17.3.7-ts.1':
+    dependencies:
+      '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+      '@rbxts-js/react-globals': 17.3.7-ts.1
+      '@rbxts-js/shared': 17.3.7-ts.1
+
+  '@rbxts-js/roblox-lua-promise@3.5.0-ts.2': {}
+
+  '@rbxts-js/safe-flags@17.3.7-ts.1': {}
+
+  '@rbxts-js/scheduler@17.3.7-ts.1':
+    dependencies:
+      '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+      '@rbxts-js/react-globals': 17.3.7-ts.1
+      '@rbxts-js/safe-flags': 17.3.7-ts.1
+      '@rbxts-js/shared': 17.3.7-ts.1
+
+  '@rbxts-js/shared@17.3.7-ts.1':
+    dependencies:
+      '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+      '@rbxts-js/react-globals': 17.3.7-ts.1
+      '@rbxts-js/safe-flags': 17.3.7-ts.1
+
+  '@rbxts-js/string@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/es7-types': 1.2.3-ts.1
+      '@rbxts-js/number': 1.2.3-ts.1
+
+  '@rbxts-js/symbol-luau@1.0.0-ts.1': {}
+
+  '@rbxts-js/timers@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/collections': 1.2.3-ts.1
+
   '@rbxts/catppuccin@1.0.2': {}
 
   '@rbxts/colour-utils@1.4.1': {}
@@ -928,24 +1075,22 @@ snapshots:
 
   '@rbxts/fuzzy-search@1.0.4': {}
 
-  '@rbxts/pretty-react-hooks@0.6.4(@rbxts/react-roblox@17.2.3)(@rbxts/react@17.2.3)':
+  '@rbxts/pretty-react-hooks@0.6.4(@rbxts/react-roblox@17.3.7-alpha.1(@rbxts/react@17.3.7-alpha.1))(@rbxts/react@17.3.7-alpha.1)':
     dependencies:
-      '@rbxts/react': 17.2.3
-      '@rbxts/react-roblox': 17.2.3
+      '@rbxts/react': 17.3.7-alpha.1
+      '@rbxts/react-roblox': 17.3.7-alpha.1(@rbxts/react@17.3.7-alpha.1)
       '@rbxts/ripple': 0.9.3
       '@rbxts/services': 1.6.0
       '@rbxts/set-timeout': 1.1.2
 
-  '@rbxts/react-roblox@17.2.3':
+  '@rbxts/react-roblox@17.3.7-alpha.1(@rbxts/react@17.3.7-alpha.1)':
     dependencies:
-      '@rbxts/react': 17.2.3
-      '@rbxts/react-vendor': 17.2.3
+      '@rbxts-js/react-roblox': 17.3.7-ts.1
+      '@rbxts/react': 17.3.7-alpha.1
 
-  '@rbxts/react-vendor@17.2.3': {}
-
-  '@rbxts/react@17.2.3':
+  '@rbxts/react@17.3.7-alpha.1':
     dependencies:
-      '@rbxts/react-vendor': 17.2.3
+      '@rbxts-js/react': 17.3.7-ts.1
 
   '@rbxts/ripple@0.9.3': {}
 
@@ -957,7 +1102,7 @@ snapshots:
 
   '@rbxts/testez@0.4.2-ts.0': {}
 
-  '@rbxts/types@1.0.888': {}
+  '@rbxts/types@1.0.889': {}
 
   '@rbxts/ui-labs@2.4.2': {}
 
@@ -1008,8 +1153,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.44.0(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.46.3(typescript@5.9.3)
-      '@typescript-eslint/types': 8.46.3
+      '@typescript-eslint/tsconfig-utils': 8.44.0(typescript@5.9.3)
+      '@typescript-eslint/types': 8.44.0
       debug: 4.4.3
       typescript: 5.9.3
     transitivePeerDependencies:
