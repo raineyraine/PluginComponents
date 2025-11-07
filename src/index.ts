@@ -1,5 +1,20 @@
 import React from "@rbxts/react";
 
+import PluginProviderImport from "./components/plugin/PluginProvider";
+import PluginWidgetImport from "./components/plugin/PluginWidget";
+
+import BackgroundImport from "./components/Background";
+import ButtonImport from "./components/Button";
+import IconImport from "./components/Icon";
+import TabContainerImport, { Tab as TabImport } from "./components/TabContainer";
+
+import usePluginImport from "./hooks/plugin/usePlugin";
+
+import useStudioThemeImport from "./hooks/useStudioTheme";
+import useThemeImport from "./hooks/useTheme";
+
+import getTextSizeImport from "./util/getTextSize";
+
 declare global {
 	interface StudioProper extends Studio {
 		Theme: StudioTheme;
@@ -23,21 +38,23 @@ declare global {
 }
 
 // Hooks
-export * as useStudioTheme from "./hooks/useStudioTheme";
-export * as useTheme from "./hooks/useTheme";
 
-// Contexts
-//export * from "./contexts/plugin/MenuContext"
-//export * from "./contexts/plugin/PluginContext"
-//export * from "./contexts/plugin/ToolbarContext"
-//export * from "./contexts/plugin/WidgetContext"
-//export * from "./contexts/ThemeContext"
+/* eslint-disable @typescript-eslint/no-namespace */
+namespace PluginComponents {
+	export const PluginProvider = PluginProviderImport;
+	export const PluginWidget = PluginWidgetImport;
 
-// Components
-export * as PluginProvider from "./components/plugin/PluginProvider";
-export * as PluginWidget from "./components/plugin/PluginWidget";
+	export const Background = BackgroundImport;
+	export const Button = ButtonImport;
+	export const Icon = IconImport;
+	export const TabContainer = TabContainerImport;
+	export const Tab = TabImport;
 
-export * as Background from "./components/Background";
-export * as Button from "./components/Button";
-export * as Icon from "./components/Icon";
-export * as TabContainer from "./components/TabContainer";
+	export const usePlugin = usePluginImport;
+	export const useStudioTheme = useStudioThemeImport;
+	export const useTheme = useThemeImport;
+
+	export const getTextSize = getTextSizeImport;
+}
+
+export = PluginComponents;
