@@ -80,9 +80,9 @@ export default function PluginWidget({
 	id,
 	title = id,
 	enabled,
-	initialDockState,
-	minSize,
-	initialFloatSize,
+	initialDockState = Enum.InitialDockState.Float,
+	minSize = new Vector2(100, 100),
+	initialFloatSize = new Vector2(100, 100),
 	zIndexBehavior = Enum.ZIndexBehavior.Sibling,
 	onFocusLost,
 	onFocused,
@@ -99,10 +99,10 @@ export default function PluginWidget({
 				initialDockState,
 				true,
 				false,
-				initialFloatSize?.X,
-				initialFloatSize?.Y,
-				minSize?.X,
-				minSize?.Y,
+				initialFloatSize.X,
+				initialFloatSize.Y,
+				minSize.X,
+				minSize.Y,
 			),
 		[],
 	);
@@ -162,9 +162,9 @@ export default function PluginWidget({
 	}, [dockWidget, onSizeChange]);
 
 	const widgetChildren = (
-		<frame BackgroundTransparency={1} Size={UDim2.fromScale(1, 1)} BorderSizePixel={0}>
+		<>
 			<WidgetContext.Provider value={dockWidget}>{children}</WidgetContext.Provider>
-		</frame>
+		</>
 	);
 
 	return dockWidget ? createPortal(widgetChildren, dockWidget) : undefined;
