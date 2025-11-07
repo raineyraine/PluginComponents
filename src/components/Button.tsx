@@ -155,6 +155,7 @@ export default function Button({
 	const bgColorSpring = useSpring(bgColor, SPRING_FAST);
 	return (
 		<imagebutton
+			key="Button"
 			BackgroundColor3={bgColorSpring}
 			BorderSizePixel={0}
 			Size={buttonSize}

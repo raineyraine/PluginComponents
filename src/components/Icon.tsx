@@ -27,6 +27,7 @@ export default function Icon({
 }: IconProps) {
 	return (
 		<imagelabel
+			key="Icon"
 			Size={size ? UDim2.fromOffset(size.X, size.Y) : UDim2.fromOffset(16, 16)}
 			AnchorPoint={new Vector2(0.5, 0.5)}
 			BackgroundTransparency={1}

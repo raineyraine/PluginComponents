@@ -181,6 +181,7 @@ export default function TabContainer({
 
 	return (
 		<frame
+			key="TabContainer"
 			BackgroundTransparency={1}
 			Size={Size}
 			Position={Position}

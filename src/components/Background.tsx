@@ -6,6 +6,7 @@ export default function Background({ children, Size, Position, AnchorPoint, ZInd
 
 	return (
 		<frame
+			key="Background"
 			BackgroundColor3={theme.Background}
 			BorderSizePixel={0}
 			Size={Size || new UDim2(1, 0, 1, 0)}
